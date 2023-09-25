@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# WebDriverIO reports and logs (if applicable)
+/allure-report/
+/logs/
+
+# IDE-specific files (e.g., VS Code settings)
+.vscode/
+
+# Environment-specific configuration files (e.g., .env)
+.env
+
+# Temporary files generated during development
+*.log
+*.log.*
+*.tmp
+*.swp
+
+# System and OS-generated files
+.DS_Store
+Thumbs.db
+
+# Build output (if applicable)
+/dist/
+/build/
+
+# Miscellaneous
+npm-debug.log*
+yarn-error.log*
+
+package-lock.json
